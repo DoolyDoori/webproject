@@ -1,0 +1,44 @@
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: black;
+
+}
+.site-header a {
+  color: #8e8e8e;
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: lightsteelblue;
+  text-decoration: none;
+}
+.bg-primary4{
+  background-color: #c4302b;
+}
+.bg-purple{
+  background-color: #9821bd;
+}
+.bg-lime{
+  background-color: lime;
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+/* 미디어기기 화면이 768픽셀 이상이면  좌우가 균등하게  */
+@media (min-width: 768px) { 
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
